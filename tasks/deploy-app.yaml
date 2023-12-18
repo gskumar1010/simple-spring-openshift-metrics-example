@@ -1,31 +1,8 @@
 apiVersion: tekton.dev/v1
 kind: Task
 metadata:
-  creationTimestamp: '2023-12-18T14:11:27Z'
-  generation: 3
-  managedFields:
-    - apiVersion: tekton.dev/v1beta1
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:spec':
-          .: {}
-          'f:workspaces': {}
-      manager: Mozilla
-      operation: Update
-      time: '2023-12-18T14:11:27Z'
-    - apiVersion: tekton.dev/v1
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:spec':
-          'f:params': {}
-          'f:steps': {}
-      manager: Mozilla
-      operation: Update
-      time: '2023-12-18T15:38:00Z'
   name: deploy-app
   namespace: test3
-  resourceVersion: '494944'
-  uid: 4a7608a2-81de-4f46-b1f8-7bf3d8983a49
 spec:
   params:
     - description: The name of deployment
